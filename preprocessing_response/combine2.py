@@ -138,4 +138,5 @@ if __name__ == '__main__':
     data = data['textAnnotations']
 
     print("------------->>>> ")
-    pp(over_all(data))
+    map_everything = over_all(data)
+    pp(map_everything)
